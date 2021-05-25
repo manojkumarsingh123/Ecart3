@@ -1,0 +1,25 @@
+{
+  "name": "ecart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node":"14.16.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production MONGO_USER=Manojsingh MONGO_PASSWORD=BmpIK8cLefmh2HYL MONGO_DEFAULT_DATABASE=myFirstDatabase node app.js",
+    "start-server": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6",
+    "mongoose": "^5.2.17",
+    "mysql2": "^2.2.5",
+    "sequelize": "^5.0.0-beta.11"
+  }
+}
